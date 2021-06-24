@@ -15,32 +15,18 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-
-        #test
-        self.ui.pushButton.clicked.connect(lambda: UIFunctions.click(self))
+        #start
+       
+        # self.show()
+        data = UART.read(self)
+        UIFunctions.display(self, data)
         
-
-        
-
-        # end
+        #END
         self.show()
-
-
+ 
 
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
     sys.exit(app.exec_())
-
-
-# if __name__ == "__main__":
-#     import sys
-#     app = QtWidgets.QApplication(sys.argv)
-#     MainWindow = QtWidgets.QMainWindow()
-#     ui = Ui_MainWindow()
-#     ui.setupUi(MainWindow)
-#     MainWindow.show()
-#     sys.exit(app.exec_())
-
-# app.exex_() -- mainloop

@@ -566,7 +566,7 @@
                  </widget>
                 </item>
                 <item row="0" column="1">
-                 <widget class="QLineEdit" name="lineEdit_3">
+                 <widget class="QLineEdit" name="lineTemp">
                   <property name="font">
                    <font>
                     <pointsize>12</pointsize>
@@ -590,7 +590,7 @@
                  </widget>
                 </item>
                 <item row="1" column="1">
-                 <widget class="QLineEdit" name="lineEdit_4">
+                 <widget class="QLineEdit" name="lineHeight">
                   <property name="font">
                    <font>
                     <pointsize>12</pointsize>
@@ -614,7 +614,7 @@
                  </widget>
                 </item>
                 <item row="2" column="1">
-                 <widget class="QLineEdit" name="lineEdit_5">
+                 <widget class="QLineEdit" name="lineWeight">
                   <property name="font">
                    <font>
                     <pointsize>12</pointsize>
@@ -650,7 +650,7 @@
                  </widget>
                 </item>
                 <item row="3" column="1">
-                 <widget class="QLineEdit" name="lineEdit_6">
+                 <widget class="QLineEdit" name="linePressure">
                   <property name="font">
                    <font>
                     <pointsize>12</pointsize>
@@ -663,7 +663,7 @@
                  </widget>
                 </item>
                 <item row="4" column="1">
-                 <widget class="QLineEdit" name="lineEdit_7">
+                 <widget class="QLineEdit" name="linePulse">
                   <property name="font">
                    <font>
                     <pointsize>12</pointsize>
