@@ -17,7 +17,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
 
         #test
-        self.ui.button_save.clicked.connect(lambda: UIFunctions.catch_info(self))
+        self.ui.button_save.clicked.connect(lambda: UIFunctions.genderCheck(self))
         
 
         # end
