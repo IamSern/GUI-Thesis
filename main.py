@@ -17,9 +17,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
 
         #test
-        self.ui.pushButton.clicked.connect(lambda: UIFunctions.click(self))
-        
-
+        self.ui.button_save.clicked.connect(lambda: UIFunctions.catch_info(self))
         
 
         # end

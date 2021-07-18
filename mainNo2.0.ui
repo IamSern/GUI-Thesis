@@ -222,8 +222,97 @@
                 <property name="verticalSpacing">
                  <number>0</number>
                 </property>
-                <item row="1" column="3">
-                 <widget class="QComboBox" name="comboBox">
+                <item row="2" column="3">
+                 <widget class="QLineEdit" name="line_ID">
+                  <property name="font">
+                   <font>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" colspan="5">
+                 <widget class="QLineEdit" name="line_name">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Cambria</family>
+                    <pointsize>18</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit{
+border: 2px solid rgb(52, 93, 167);
+border-radius: 7px;
+color: rgb(42, 42, 42);
+padding-left: 5px;
+padding-rignt: 5px;
+}</string>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Họ và tên</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="4">
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="0" colspan="3">
+                 <widget class="QLabel" name="label_3">
+                  <property name="font">
+                   <font>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Mã bệnh nhân</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_2">
+                  <property name="font">
+                   <font>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
+border-bottom: 2px solidrgb(52, 93, 167)
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Năm sinh</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QComboBox" name="box_year">
                   <property name="maximumSize">
                    <size>
                     <width>70</width>
@@ -232,9 +321,112 @@
                   </property>
                   <property name="font">
                    <font>
+                    <family>Cambria</family>
                     <pointsize>14</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
                    </font>
                   </property>
+                  <item>
+                   <property name="text">
+                    <string>1969</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1970</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1971</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1972</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1973</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1975</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1976</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1977</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1978</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1979</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1980</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1981</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1983</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1983</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1984</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1985</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1986</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1987</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1988</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1989</string>
+                   </property>
+                  </item>
                   <item>
                    <property name="text">
                     <string>1990</string>
@@ -292,42 +484,8 @@
                   </item>
                  </widget>
                 </item>
-                <item row="2" column="3">
-                 <widget class="QLineEdit" name="lineEdit_2">
-                  <property name="font">
-                   <font>
-                    <pointsize>14</pointsize>
-                   </font>
-                  </property>
-                 </widget>
-                </item>
-                <item row="1" column="4">
-                 <spacer name="horizontalSpacer_2">
-                  <property name="orientation">
-                   <enum>Qt::Horizontal</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>40</width>
-                    <height>20</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-                <item row="0" column="0" colspan="5">
-                 <widget class="QLineEdit" name="lineEdit">
-                  <property name="font">
-                   <font>
-                    <pointsize>16</pointsize>
-                   </font>
-                  </property>
-                  <property name="placeholderText">
-                   <string>Họ và tên</string>
-                  </property>
-                 </widget>
-                </item>
                 <item row="0" column="6">
-                 <widget class="QRadioButton" name="radioButton_2">
+                 <widget class="QRadioButton" name="gender_female">
                   <property name="minimumSize">
                    <size>
                     <width>70</width>
@@ -336,7 +494,10 @@
                   </property>
                   <property name="font">
                    <font>
-                    <pointsize>16</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>15</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
                    </font>
                   </property>
                   <property name="text">
@@ -345,7 +506,7 @@
                  </widget>
                 </item>
                 <item row="0" column="5">
-                 <widget class="QRadioButton" name="radioButton">
+                 <widget class="QRadioButton" name="gender_male">
                   <property name="minimumSize">
                    <size>
                     <width>70</width>
@@ -354,35 +515,24 @@
                   </property>
                   <property name="font">
                    <font>
-                    <pointsize>16</pointsize>
+                    <family>Candara</family>
+                    <pointsize>15</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
                    </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QRadioButton::indicator::checked{
+
+	color: rgb(255, 0, 0);
+}
+QRadioButton::indicator{
+    width: 13px;
+    height: 13px;
+}</string>
                   </property>
                   <property name="text">
                    <string>Nam</string>
-                  </property>
-                 </widget>
-                </item>
-                <item row="2" column="0" colspan="3">
-                 <widget class="QLabel" name="label_3">
-                  <property name="font">
-                   <font>
-                    <pointsize>14</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>Mã bệnh nhân</string>
-                  </property>
-                 </widget>
-                </item>
-                <item row="1" column="0">
-                 <widget class="QLabel" name="label_2">
-                  <property name="font">
-                   <font>
-                    <pointsize>14</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>Năm sinh</string>
                   </property>
                  </widget>
                 </item>
@@ -420,7 +570,7 @@
                  <number>6</number>
                 </property>
                 <item>
-                 <widget class="QTextEdit" name="textEdit">
+                 <widget class="QTextEdit" name="text_reason">
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
@@ -429,6 +579,7 @@
                   </property>
                   <property name="font">
                    <font>
+                    <family>Cambria</family>
                     <pointsize>14</pointsize>
                    </font>
                   </property>
@@ -438,19 +589,37 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="pushButton">
+                 <widget class="QPushButton" name="button_save">
                   <property name="minimumSize">
                    <size>
                     <width>80</width>
-                    <height>30</height>
+                    <height>50</height>
                    </size>
                   </property>
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
                    </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+color: rgb(85, 0, 127);
+background-color: rgb(59, 138, 196);
+border: 2px solid rgb(52, 93, 167);
+border-radius: 8px
+}
+
+QPushButton:hover{
+background-color: rgb(75, 180, 222);
+}
+
+QPushButton:pressed{
+background-color: rgb(52, 93, 167);
+}
+</string>
                   </property>
                   <property name="text">
                    <string>Lưu</string>
@@ -557,7 +726,8 @@
                  <widget class="QLabel" name="label_5">
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
                    </font>
                   </property>
                   <property name="text">
@@ -581,7 +751,8 @@
                  <widget class="QLabel" name="label_6">
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
                    </font>
                   </property>
                   <property name="text">
@@ -605,7 +776,8 @@
                  <widget class="QLabel" name="label_7">
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
                    </font>
                   </property>
                   <property name="text">
@@ -629,7 +801,8 @@
                  <widget class="QLabel" name="label_8">
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
                    </font>
                   </property>
                   <property name="text">
@@ -641,7 +814,8 @@
                  <widget class="QLabel" name="label_9">
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Cambria</family>
+                    <pointsize>14</pointsize>
                    </font>
                   </property>
                   <property name="text">
@@ -685,6 +859,11 @@
        </item>
        <item>
         <widget class="QFrame" name="history">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(239, 219, 203);</string>
          </property>
@@ -695,18 +874,80 @@
           <enum>QFrame::Raised</enum>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
           <item>
-           <spacer name="horizontalSpacer">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
+           <widget class="QTableWidget" name="tableWidget">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
             </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>488</width>
-              <height>20</height>
-             </size>
+            <property name="styleSheet">
+             <string notr="true">QScrolBar:horizontal{
+color: rgb(255, 0, 0);
+
+}</string>
             </property>
-           </spacer>
+            <property name="autoScrollMargin">
+             <number>16</number>
+            </property>
+            <property name="gridStyle">
+             <enum>Qt::SolidLine</enum>
+            </property>
+            <property name="rowCount">
+             <number>0</number>
+            </property>
+            <property name="columnCount">
+             <number>6</number>
+            </property>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>100</number>
+            </attribute>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Thời gian</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>ID</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Tên</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Giới tính</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Kết quả</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Lí do khám</string>
+             </property>
+            </column>
+           </widget>
           </item>
          </layout>
         </widget>
