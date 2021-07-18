@@ -9,6 +9,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from ui_main import Ui_MainWindow
 #import Functions
 from ui_function import*
+from mysql_function import*
+from uart_function import*
 
 class MainWindow(QMainWindow):
     def __init__(self):
